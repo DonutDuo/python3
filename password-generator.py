@@ -7,8 +7,7 @@ rnum = (random.choice(rno))
 p1 = ''.join([random.choice(string.ascii_letters + string.digits + string.digits + string.digits) for n in range(rnum)])
 rnum = (random.choice(rno))
 p2 = ''.join([random.choice(string.ascii_letters + string.digits + string.digits + string.digits) for n in range(rnum)])
-rnum = (random.choice(rno))
-p3 = ''.join([random.choice(string.ascii_letters + string.digits + string.digits + string.digits) for n in range(rnum)])
+p3 = ''.join([random.choice(string.ascii_letters + string.digits + string.digits + string.digits) for n in range(3)])
 # create passwd in format order
 passwd = p1 + "-" + p2 + "-" + p3
 # copy generated password to clipboard
